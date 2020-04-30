@@ -1,0 +1,76 @@
+body {
+    background-image: linear-gradient(to right, gray, white, white, white, gray);
+    font-family: 'Roboto', sans-serif;
+}
+
+.maincontainer {
+    width: 1000px;
+    height: 333px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.33);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.33);
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.33);
+    display: flex;
+}
+
+.arrowleft, .arrowright, .images {
+    display: inline-flex;
+    height: 333px;
+    
+}
+
+.arrowleft, .arrowright {
+    width: 50px;
+    background-color: white;
+    margin: 0px;
+}
+
+.arrowright {
+    transform: rotate(0.5turn);
+}
+
+.arrow {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.images {
+    width: 900px;
+}
+
+.img {
+    width: 900px;
+}
+
+.descriptionbox {
+    width: 900px;
+    height: 100px;
+    float: inline-start;
+    position: absolute;
+    left: 50px;
+    bottom: 0px;
+    margin: 0px;
+    padding: 10px;
+    filter: opacity(50%);
+    background: black;
+}
+
+.description {
+    width: 900px;
+    height: 100px;
+    float: inline-start;
+    position: absolute;
+    left: 50px;
+    bottom: 0px;
+    margin: 0px;
+    padding: 10px;
+}
+
+h1 {
+    margin: 0px;
+}
